@@ -1,4 +1,4 @@
-// Shared constants for Sizzle Rush: canvas size, shift rules, timing windows and the
+// Shared constants for Char & Chive: canvas size, shift rules, timing windows and the
 // kitchen floor plan. Every other module reads its numbers from here, so tuning the
 // game means editing this one file.
 export const VIEW_WIDTH = 1280;
@@ -11,9 +11,9 @@ export const TARGET_COINS = 450;
 export const START_HEARTS = 3;
 export const MAX_ORDERS = 4;
 export const ORDER_SPAWN_SECONDS = 13;
-export const ORDER_SPAWN_RUSH_SECONDS = 14;
+export const ORDER_SPAWN_RUSH_SECONDS = 9;
 export const ORDER_PATIENCE_SECONDS = 50;
-export const ORDER_PATIENCE_RUSH_SECONDS = 50;
+export const ORDER_PATIENCE_RUSH_SECONDS = 40;
 export const RUSH_SECONDS = 60;
 export const FIRST_ORDER_SECONDS = 2;
 
